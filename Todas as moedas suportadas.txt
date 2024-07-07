@@ -1,0 +1,17 @@
+
+Aqui temos os nomes e codes de algumas moedas populares, listadas logo abaixo:
+ 
+ 
+SIGLAS   NOME DA MOEDA                PAÍS
+           
+USD:	 Dólar dos Estados Unidos    Estados Unidos
+EUR:	 Euro                        União Europeia
+JPY:	 Iene Japones                Japão
+GBP:	 Libra Esterlina             Reino Unido
+CAD:	 Dólar Canadese              Canada
+KWD:	 Dinar Kuwaitiano            Kuwait
+BHD:	 Dinar do Bahrein            Bahrein
+OMR:	 Rial omanense               Omã
+ARS:	 Peso Argentino              Argentina
+BRL:	 Real Brasileiro             Brasil
+COP:	 Peso Colombiano             Colômbia
