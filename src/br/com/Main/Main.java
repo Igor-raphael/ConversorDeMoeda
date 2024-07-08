@@ -21,11 +21,10 @@ public class Main {
 		String x = "";
 		String y = "";
 		
-		System.out.println("***** Conversor de moedas *****\n"
-				+ "Primeiro de tudo veremos todas as moedas suportadas e suas respectivas SIGLAS.");
+		System.out.println("***** CONVERSOR DE MOEDAS *****");
         				System.out.println(info.leitor());	
 		
-		
+		System.out.println("Caso necessite, digite SAIR para fechar o programa!.\n");
 		
 		while(!x.equalsIgnoreCase("sair") || !y.equalsIgnoreCase("sair") ) {				
 			
@@ -44,15 +43,16 @@ public class Main {
 					break;
 				}
 				
-			 
-			
-			System.out.println("Digite o valor da conversão: ");
+			 			
+			System.out.println("Digite o valor da conversão: (EX: 5 ou 5,0) ");
 			double q = scanner.nextDouble();
+			
 			
 			Double cambio = api.conversor(x, y);
 			
-			System.out.println(calc.calculo(cambio, q) + "\n");
 			
+			System.out.println(calc.calculo(cambio, q) + "\n");
+					
 		}
 		
 		System.out.println("Até mais!");

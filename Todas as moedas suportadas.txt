@@ -1,4 +1,6 @@
 
+Esse programa aceita todas as 161 moedas do mundo, tirando a da Coreia do Norte.
+
 Aqui temos os nomes e codes de algumas moedas populares, listadas logo abaixo:
  
  

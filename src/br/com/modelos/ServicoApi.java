@@ -41,15 +41,20 @@ public class ServicoApi {
 			return filtro.conversion_rate();
 		
 		} else {
-			System.err.println("Não foi possivel realizar a conversao. " + response.statusCode());
+			System.err.println("Erro ao obter taxa de câmbio. Código de status: " + response.statusCode());
 			System.err.println("Verifique se a sigla da moeda esta correta!.");
 			return null;
 		}
 		
-	} catch (Exception e) {
-	 	e.printStackTrace();
+	} catch (InterruptedException e) {
+        System.err.println("Thread interrompida durante a conexão à API: " + e.getMessage());
+        e.printStackTrace();
+        return null;
+		
+	}catch (Exception e) {
+		 System.err.println("Erro inesperado: " + e.getMessage());
+		e.printStackTrace();
 		return null;
-	     
 	}
 	
 	
