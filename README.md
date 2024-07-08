@@ -16,11 +16,6 @@ O Challenge Conversor de Moeda oferece as seguintes funcionalidades:
 3. Abra o projeto em sua IDE favorita.
 4. Execute a aplicação.
 
-## Demonstração
-
-
-
-
 ## Consumindo a API
 
 O Conversor de Moeda consome uma API externa para obter as taxas de conversão de moeda em tempo real. Para isso, utiliza a biblioteca padrão do Java `java.net.http.HttpClient` para fazer requisições HTTP à API de conversão de moeda.
@@ -30,9 +25,9 @@ A URI da API é construída dinamicamente de acordo com as moedas de origem e de
 O valor da conversão é então calculado multiplicando-se a quantidade da moeda de origem pelo valor da taxa de conversão.
 
 
-## Contribuição
+## Minha Opinião sobre o projeto
 
-Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Normalmente esse projeto deveria se limitar a somente 7 opções de conversão, mas como é um desafio bem interessante eu queria tirar mais proveito dessa oportunidade, por isso a minha preferência foi deixar o usuário decidir quais moedas usar a vontade, dessa forma o programa não terá limite de uso e poderá tira total proveito da API.
 
 ## Licença
 
